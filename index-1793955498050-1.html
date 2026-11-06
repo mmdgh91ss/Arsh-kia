@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>هوش‌فیت | HooshFit بدنسازی</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f0f0f">
+</head>
+<body>
+<header class="header">
+<div class="logo">🏋️ هوش‌فیت <span>HooshFit</span></div>
+<div class="header-actions">
+<input type="search" id="search" placeholder="جست‌وجو... Search...">
+<button id="langBtn" onclick="toggleLang()">EN / فارسی</button>
+</div>
+</header>
+<section class="hero">
+<h1 id="heroTitle">برنامه بدنسازی کل بدن برای همه سطوح</h1>
+<p id="heroSub">۲۴ حرکت، راهنمای تصویری و ویدیویی، تعداد ست استاندارد، فارسی و انگلیسی</p>
+<div class="cats" id="cats"></div>
+</section>
+<main id="grid" class="grid"></main>
+<div id="modal" class="modal hidden">
+<div class="modal-box">
+<button class="close" onclick="closeModal()">✕</button>
+<div id="modalContent"></div>
+</div>
+</div>
+<footer>
+<p>ساخته‌شده برای ورزشکاران فارسی و انگلیسی‌زبان | HooshFit 2026</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

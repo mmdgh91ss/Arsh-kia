@@ -1,0 +1,11 @@
+{
+  "name": "HooshFit Bodybuilding",
+  "short_name": "HooshFit",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "fa",
+  "background_color": "#0f0f0f",
+  "theme_color": "#ff4500",
+  "description": "Bilingual Persian-English bodybuilding guide"
+}

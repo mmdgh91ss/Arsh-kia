@@ -1,0 +1,32 @@
+*{box-sizing:border-box;font-family:Vazirmatn,Tahoma,Arial,sans-serif}
+body{margin:0;background:#0f0f0f;color:#fff}
+.header{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:12px 18px;background:#151515;border-bottom:2px solid #ff4500}
+.logo{font-size:22px;font-weight:800}.logo span{color:#ff6a00;font-size:15px}
+.header-actions{display:flex;gap:10px}
+#search{padding:8px 12px;border-radius:10px;border:0;width:180px}
+#langBtn{background:#ff4500;color:#fff;border:0;border-radius:10px;padding:8px 14px;font-weight:700;cursor:pointer}
+.hero{text-align:center;padding:30px 15px;background:linear-gradient(135deg,#ff4500,#7a2000)}
+.hero h1{margin:0 0 8px}.hero p{opacity:.9}
+.cats{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.cats button{background:#fff;color:#111;border:0;padding:8px 14px;border-radius:20px;cursor:pointer;font-weight:700}
+.cats button.active{background:#111;color:#fff;border:1px solid #fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px;padding:20px;max-width:1200px;margin:auto}
+.card{background:#1c1c1c;border-radius:16px;overflow:hidden;border:1px solid #333;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:#ff4500}
+.card-img{font-size:70px;text-align:center;padding:20px;background:linear-gradient(180deg,#2a2a2a,#111)}
+.card-body{padding:14px}
+.card-body h3{margin:0 0 4px;font-size:18px}
+.en{color:#ffa37a;font-size:13px}
+.badge{display:inline-block;background:#2b2b2b;border-radius:8px;padding:4px 8px;margin:6px 4px 6px 0;font-size:12px}
+.sets{color:#00e676;font-weight:800}
+.card-body p{font-size:13.5px;line-height:1.8;color:#ddd;min-height:60px}
+.card-btns{display:flex;gap:8px;margin-top:10px}
+.btn{flex:1;text-align:center;padding:9px;border-radius:10px;text-decoration:none;font-weight:700;font-size:13px;cursor:pointer;border:0}
+.detail{background:#ff4500;color:#fff}
+.video{background:#fff;color:#111}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.7);display:flex;align-items:center;justify-content:center;padding:15px}
+.hidden{display:none}
+.modal-box{background:#1a1a1a;max-width:600px;width:100%;border-radius:16px;padding:20px;max-height:90vh;overflow:auto;position:relative}
+.close{position:absolute;top:10px;left:10px;background:#333;color:#fff;border:0;border-radius:50%;width:32px;height:32px;cursor:pointer}
+.modal-box ol{line-height:2;font-size:14px}
+footer{text-align:center;padding:20px;color:#888;font-size:13px}
